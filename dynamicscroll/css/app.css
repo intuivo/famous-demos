@@ -1,0 +1,10 @@
+html {
+    background-color: #111;
+    color: #000000;
+}
+
+.famous-surface {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    text-align: center;
+}

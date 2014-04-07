@@ -1,0 +1,37 @@
+.panel-background {	
+    background-color: transparent;
+}
+
+.label
+{
+    color: rgba(255,255,255,1.0);
+    border-bottom: 1px solid white;
+    font-family: 'Avenir Next W10 Medium';
+}
+
+.slider-label {
+    color: rgba(255,255,255, 0.7);
+    font-family: 'Avenir Next W10 Medium';
+/*     background: #222; */
+}
+
+.slider-back {
+    background: rgb(109,109,109); /* Old browsers */    
+}
+
+.slider-fill {
+    background: #fff;
+}
+
+.slider-value {
+/*     color: #444; */
+}
+
+.no-user-select { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

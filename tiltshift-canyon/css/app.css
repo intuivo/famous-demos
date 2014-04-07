@@ -1,0 +1,105 @@
+/* begin styling */
+html { 
+    background-color: #ccc;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+}
+
+#main {
+    -webkit-perspective: 500px;
+    perspective: 500px; 
+}
+
+
+h1, h2, h3 {
+    font-family: 'Avenir Next W10 Medium';
+    font-size: 24px;
+}
+
+p { 
+    font-family: 'Avenir Next W01 Thin';
+    font-size: 18px;
+    line-height: 24px;
+}
+a { 
+    font-family: 'Avenir Next W10 Medium';
+}
+
+.backfaceVisible {
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible; /* Chrome and Safari */
+    -moz-backface-visibility: visible; /* Firefox */
+}
+.white              { color: white; }
+
+.bor_clear  { border: 0; }
+.bor_clear:focus { outline: 0 }
+
+.left       { float: left; }
+.right      { float: right; }
+.inline     { display: inline; }
+.block      { display: block; } 
+.clear      { clear: both; }
+.absolute   { position: absolute }
+
+
+
+.description-panel {
+    background-color: rgba(77, 77, 77, 0.5);
+}
+.description-closing-tab {
+    border: 1px solid white;
+}
+
+.no-user-select { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.textinput
+{        
+    height:40px; 
+    width:100%; 
+    padding-left: 6px;     
+    padding-top: 0px;     
+    color: rgba(255, 255, 255, .750);
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';
+    background-color:rgba(0, 0, 0, 0.0); 
+    border: 1px solid rgba(255, 255, 255, .750);   
+    outline-width: 0px;
+}
+
+.textinput:focus
+{
+    color: rgba(255, 255, 255, 1.0);
+    border: 1px solid rgba(255, 255, 255, 1.0);   
+    outline-width: 0px;    
+}
+
+.submit
+{
+    padding-top: 9px;
+    padding-left: 4px;
+    line-height: 24px;
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';   
+}
+
+.progress-fill { 
+    background-color: #222;
+}
+
+.progress-back { 
+    border: 1px solid #333;
+}

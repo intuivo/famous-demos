@@ -1,0 +1,41 @@
+.panel-background { 
+    background-color: rgba(255,255,255,.125);
+}
+
+.ui-label
+{
+    font-family: 'Avenir Next W10 Medium', sans-serif;    
+    color: rgba(255,255,255,1.0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);    
+    background-color: rgba(0,0,0,.175);
+}
+
+.slider-label {                 
+    font-family: 'Avenir Next W10 Thin', sans-serif;  
+    font-weight: 200;
+    color: rgba(255,255,255,1.0);
+    background-color: rgba(0,0,0,.175);
+}
+
+.slider-back {
+    background-color: rgba(0,0,0,.5);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.slider-fill {
+    background-color: rgba(255,255,255,1.0);
+}
+
+.slider-value {
+    font-family: 'Avenir Next W10 Thin', sans-serif;  
+    color: rgba(172,234,255,1.0);
+}
+
+.no-user-select { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

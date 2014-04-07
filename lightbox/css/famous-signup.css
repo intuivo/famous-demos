@@ -1,0 +1,186 @@
+/*  Famous Signup */
+
+input { 
+    border-radius: 4px;
+    background-color: #fffefd;
+    border: 1px solid #ccc5b9;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.famous-signup-input { 
+    color: #222;
+    -webkit-transition : all .05s linear;
+    -moz-transition    : all .05s linear;
+    -o-transition      : all .05s linear;
+    transition         : all .05s linear;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.famous-signup-input:hover {
+    border: 1px solid #33ccff;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+    outline: none;
+}
+
+.famous-signup-button { 
+    font-family: 'Avenir Next W10 Medium';
+    letter-spacing: 3px;
+    font-size: 10px;
+    height: 30px;
+
+    padding: 5px;
+
+    -webkit-box-shadow: 0px 0px 9px rgba(250, 250, 250, 0.25);
+    -moz-box-shadow:    0px 0px 9px rgba(250, 250, 250, 0.25);
+    box-shadow:         0px 0px 9px rgba(250, 250, 250, 0.25);
+
+    background: #3a3c3f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3a3c3f 0%, #232323 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a3c3f), color-stop(100%,#232323)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #3a3c3f 0%,#232323 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #3a3c3f 0%,#232323 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #3a3c3f 0%,#232323 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #3a3c3f 0%,#232323 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3c3f', endColorstr='#232323',GradientType=0 ); /* IE6-9 */
+
+    text-transform: uppercase;
+
+    border: 1px solid #b1b1b1;
+    background-color: #313131;
+
+    -webkit-transition : all .05s linear;
+    -moz-transition    : all .05s linear;
+    -o-transition      : all .05s linear;
+    transition         : all .05s linear;
+
+    cursor: pointer;
+    
+}
+
+.famous-signup-button:hover { 
+    color: #3cf;
+    font-family: 'Avenir Next W10 Medium';
+    
+}
+
+.famous-signup-button:active, .famous-signup-button-active { 
+    background-color: #3cc1f9;
+    color: #23535c;
+    -webkit-box-shadow: 0px 0px 9px rgba(56, 247, 197, 0.25);
+    -moz-box-shadow:    0px 0px 9px rgba(56, 247, 197, 0.25);
+    box-shadow:         0px 0px 9px rgba(56, 247, 197, 0.25);
+    
+}
+
+
+label { 
+    font-size: 16px;
+    font-family: 'Avenir Next W10 Medium';
+    letter-spacing: 1px;
+}
+
+.famous-signup-headline { 
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Avenir Next W10 Medium';
+}
+
+.famous-signup-label { 
+    float: left;
+}
+
+.famous-signup-sub-headline {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.famous-signup-main-text { 
+
+}
+
+.famous-signup-spacer { 
+    padding-bottom: 20px;
+}
+
+.famous-headline-one { 
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    font-family: 'Avenir Next W10 Thin';
+}
+
+.famous-headline-two { 
+    font-family: 'Avenir Next W10 Medium';
+}
+
+
+.famous-signup-close { 
+    border-radius: 25px;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 0px 9px rgba(50, 50, 50, 0.9);
+    -moz-box-shadow:    0px 0px 9px rgba(50, 50, 50, 0.9);
+    box-shadow:         0px 0px 9px rgba(50, 50, 50, 0.9);
+}
+
+.famous-signup-backing { 
+
+    width: 100%;
+    color: #fff;
+
+}
+
+.famous-signup-optional { 
+    clear: both;
+    font-size: 12px;
+    padding-top: 5px;
+    float: left;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.famous-signup-open { 
+    background-color: rgba(23,152,202,0.7);
+    color: white;
+    text-align: center;
+    padding: 5px 3px;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-family: 'Avenir Next W10 Medium';
+}
+
+.famous-signup-open:hover { 
+    background-color: rgba( 80, 80, 80, 0.8); 
+    cursor: pointer;
+}
+
+.famous-signup-error { 
+    font-family: 'Avenir Next W10 Medium';
+    font-size: 24px;
+    color: #f93015;
+    text-align: center;
+    background-color: #111A1A;
+    border: 1px solid white;
+    padding: 30px 15px;
+    border-radius: 5px;
+    vertical-align: middle;
+
+
+    -webkit-box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 20px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 20px rgba(50, 50, 50, 0.75);
+
+}

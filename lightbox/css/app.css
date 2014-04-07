@@ -1,0 +1,211 @@
+/* begin styling */
+html { 
+    background-color: #111;
+    color: white;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+}
+
+#main {
+    -webkit-perspective: 500px;
+    perspective: 500px; 
+}
+
+
+h1, h2, h3 {
+    font-family: 'Avenir Next W10 Bold';
+}
+
+p { 
+    font-family: 'Avenir Next W01 Thin';
+}
+a { 
+    font-family: 'Avenir Next W10 Medium';
+}
+
+.backfaceVisible {
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible; /* Chrome and Safari */
+    -moz-backface-visibility: visible; /* Firefox */
+}
+.white              { color: white; }
+
+.bor_clear  { border: 0; }
+.bor_clear:focus { outline: 0 }
+
+.left       { float: left; }
+.right      { float: right; }
+.inline     { display: inline; }
+.block      { display: block; } 
+.clear      { clear: both; }
+.absolute   { position: absolute }
+
+.description-panel {
+    background-color: rgba(77, 77, 77, 0.5);
+}
+
+.description-closing-tab {
+    border: 1px solid white;
+}
+
+/* INTERFACE.JS */
+.textinput
+{        
+    height:40px; 
+    width:100%; 
+    padding-left: 6px;     
+    padding-top: 0px;     
+    color: rgba(255, 255, 255, .750);
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';
+    background-color:rgba(0, 0, 0, 1.0); 
+    border: 1px solid rgba(255, 255, 255, .750);   
+    outline-width: 0px;
+    -webkit-user-select: auto !important;
+    user-select: auto !important;
+}
+
+.textinput:focus
+{
+    color: rgba(255, 255, 255, 1.0);
+    border: 1px solid rgba(255, 255, 255, 1.0);   
+    outline-width: 0px;    
+    -webkit-user-select: auto !important;
+}
+
+.submit
+{
+    padding-top: 9px;
+    padding-left: 4px;
+    line-height: 24px;
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';   
+}
+
+
+/* BACKTILE.JS */
+.lightbox-title { 
+    font-family: 'Avenir Next W10 Medium';
+    padding-bottom: 20px;
+    float: left;
+}
+
+.lightbox-spanish-title { 
+    font-family: 'Avenir Next W10 Medium';
+    font-style: italic;
+    color: #ccc;
+    float: left;
+    clear: both;
+}
+
+.lightbox-tag-title { 
+    font-family: 'Avenir Next W10 Medium';
+    color: #93CFB5;
+    font-size: 14px;
+    line-height: 10px;
+    padding-bottom: 15px;
+}
+.lightbox-tag-content { 
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+.lightbox-thumb { 
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.47) 0%, rgba(0,0,0,0.73) 85%, rgba(0,0,0,0.77) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.47)), color-stop(85%,rgba(0,0,0,0.73)), color-stop(100%,rgba(0,0,0,0.77))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.73) 85%,rgba(0,0,0,0.77) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.73) 85%,rgba(0,0,0,0.77) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.73) 85%,rgba(0,0,0,0.77) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.73) 85%,rgba(0,0,0,0.77) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78000000', endColorstr='#c4000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 2px solid #93CFB5;
+    cursor: pointer;
+}
+h1.lightbox-thumb-tile { 
+    font-family: 'Avenir Next W10 Medium'; 
+    //color: #93CFB5;
+    //color: #65cfa1;
+    color: #57FFB6;
+    text-transform: uppercase;
+}
+h5.lightbox-thumb-year {
+    padding-top: 20px;
+    font-family: 'Avenir Next W10 Thin'; 
+}
+
+.gradient-bg { 
+    background: -webkit-linear-gradient(left, 
+        rgba(105,94,127,0.54) 0%,
+        rgba(255,92,92,0.57) 15%,
+        rgba(255,160,17,0.59) 27%,
+        rgba(252,236,93,0.61) 37%,
+        rgba(255,229,145,0.63) 46%,
+        rgba(111,196,173,0.65) 58%,
+        rgba(106,132,186,0.67) 69%,
+        rgba(209,119,195,0.69) 79%,
+        rgba(216,213,125,0.7) 89%,
+        rgba(216,213,125,0.72) 100%), 
+        -webkit-repeating-linear-gradient(-45deg, rgba(255,255,255,0.5), 
+        transparent 20px, 
+        rgba(255,255,255,0.3) 40px)
+}
+
+.core-nextDescription a {
+    color: #ffffff;
+    line-height: 18px;
+}
+.core-next-demo { 
+    font-size: 12px;
+    color: #ccc;
+    font-family: 'Avenir Next W10 Medium';   
+}
+.core-next-name { 
+    color: #ffffff;
+    font-family: 'Avenir Next W10 Medium';   
+}
+
+.textinput
+{        
+    height:40px; 
+    width:100%; 
+    padding-left: 6px;     
+    padding-top: 0px;     
+    color: rgba(255, 255, 255, .750);
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';
+    background-color: #222; 
+    border: 1px solid rgba(255, 255, 255, .750);   
+    outline-width: 0px;
+}
+
+.textinput:focus
+{
+    color: rgba(255, 255, 255, 1.0);
+    border: 1px solid rgba(255, 255, 255, 1.0);   
+    outline-width: 0px;    
+}
+
+.submit
+{
+    padding-top: 9px;
+    padding-left: 4px;
+    line-height: 24px;
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';   
+}
+
+.core-error { 
+    font-family: 'Avenir Next W10 Medium';   
+}
+
+.ui-label { 
+    font-family: 'Avenir Next W10 Medium';
+}
+
+
+

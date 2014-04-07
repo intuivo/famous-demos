@@ -1,0 +1,1153 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jrburke/almond · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="jrburke/almond" name="twitter:title" /><meta content="almond - A minimal AMD API implementation for use after optimized builds" name="twitter:description" /><meta content="https://1.gravatar.com/avatar/00ac28bdce61e7db41be57fb3b7f3525?d=https%3A%2F%2Fidenticons.github.com%2F880ab8e3c71a97059c86d7664216bdf3.png&amp;r=x&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://1.gravatar.com/avatar/00ac28bdce61e7db41be57fb3b7f3525?d=https%3A%2F%2Fidenticons.github.com%2F880ab8e3c71a97059c86d7664216bdf3.png&amp;r=x&amp;s=400" property="og:image" /><meta content="jrburke/almond" property="og:title" /><meta content="https://github.com/jrburke/almond" property="og:url" /><meta content="almond - A minimal AMD API implementation for use after optimized builds" property="og:description" />
+
+    <meta name="hostname" content="github-fe134-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87d8860372) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="D047C860:22DF:699DFFD:52FE8F88" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="HX3Jlo826OmAP/IBXTyKH9SVGz5w9Gkgx7i9WGyDBhg=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-4aa022a4d7a6bffb907bfc0bcb2dee5cd88c44a7.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-2d1a988aca932c19b6fe735403d1378b89a810a7.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-693e11922dcacc3a7408a911fe1647da4febd3bd.js" type="text/javascript"></script>
+      <script async="async" defer="defer" src="https://github.global.ssl.fastly.net/assets/github-717519708b29f00dff78b8e07ce1fe4494c3790b.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="ca8a46c2375fa64785e007e2bc3bf8ad">
+
+      
+  <meta name="description" content="almond - A minimal AMD API implementation for use after optimized builds" />
+
+  <meta content="73359" name="octolytics-dimension-user_id" /><meta content="jrburke" name="octolytics-dimension-user_login" /><meta content="2238128" name="octolytics-dimension-repository_id" /><meta content="jrburke/almond" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2238128" name="octolytics-dimension-repository_network_root_id" /><meta content="jrburke/almond" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/jrburke/almond/commits/master.atom" rel="alternate" title="Recent Commits to almond:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public tipsy-tooltips">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fjrburke%2Falmond">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey=" s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="jrburke/almond"
+      data-branch="master"
+      data-sha="f7d5f648fddd356958ddddcda02f105ab57d777c"
+  >
+
+    <input type="hidden" name="nwo" value="jrburke/almond" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fjrburke%2Falmond"
+    class="minibutton with-count js-toggler-target star-button tooltipped upwards"
+    aria-label="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/jrburke/almond/stargazers">
+      1,398
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fjrburke%2Falmond"
+        class="minibutton with-count js-toggler-target fork-button tooltipped upwards"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/jrburke/almond/network" class="social-count">
+        92
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/jrburke" class="url fn" itemprop="url" rel="author"><span itemprop="title">jrburke</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/jrburke/almond" class="js-current-repository js-repo-home-link">almond</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      
+
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" aria-label="Code">
+        <a href="/jrburke/almond" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /jrburke/almond">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" aria-label="Issues">
+          <a href="/jrburke/almond/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /jrburke/almond/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" aria-label="Pull Requests">
+        <a href="/jrburke/almond/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /jrburke/almond/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" aria-label="Pulse">
+        <a href="/jrburke/almond/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /jrburke/almond/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" aria-label="Graphs">
+        <a href="/jrburke/almond/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /jrburke/almond/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" aria-label="Network">
+        <a href="/jrburke/almond/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /jrburke/almond/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jrburke/almond.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jrburke/almond.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jrburke/almond" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jrburke/almond" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+  <a href="http://windows.github.com" class="minibutton sidebar-button">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="/jrburke/almond/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>A minimal AMD API implementation for use after optimized builds</p>
+    </div>
+
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/jrburke/almond/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              111
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/jrburke/almond/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            4
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/jrburke/almond/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            18
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/jrburke/almond/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      8
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/jrburke/almond/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f15501;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">99.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/jrburke/almond/search?l=shell">
+                <span class="color-block language-color" style="background-color:#5861ce;"></span>
+                <span class="lang">Shell</span>
+                <span class="percent">0.1%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <div class="clearfix">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats tooltipped downwards"
+     aria-label="Show language statistics"
+     style="background-color:#5861ce">
+  <span class="language-color" style="width:99.9%; background-color:#f15501;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:0.1%; background-color:#5861ce;" itemprop="keywords">Shell</span>
+    </a>
+  </div>
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/jrburke/almond/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/dev0.1"
+                 data-name="dev0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="dev0.1">dev0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/dev0.2"
+                 data-name="dev0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="dev0.2">dev0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/noplugin"
+                 data-name="noplugin"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="noplugin">noplugin</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/latest"
+                 data-name="latest"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="latest">latest</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.9"
+                 data-name="0.2.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.9">0.2.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.8"
+                 data-name="0.2.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.8">0.2.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.7"
+                 data-name="0.2.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.7">0.2.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.6"
+                 data-name="0.2.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.6">0.2.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.5"
+                 data-name="0.2.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.5">0.2.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.4"
+                 data-name="0.2.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.4">0.2.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.3"
+                 data-name="0.2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.3">0.2.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.2"
+                 data-name="0.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.2">0.2.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.1"
+                 data-name="0.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.1">0.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.2.0"
+                 data-name="0.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.2.0">0.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.1.4"
+                 data-name="0.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.4">0.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.1.3"
+                 data-name="0.1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.3">0.1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.1.2"
+                 data-name="0.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.2">0.1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.1.1"
+                 data-name="0.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.1">0.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.1.0"
+                 data-name="0.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.1.0">0.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.0.3"
+                 data-name="0.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.0.3">0.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jrburke/almond/tree/0.0.1"
+                 data-name="0.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="0.0.1">0.0.1</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jrburke/almond" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">almond</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fjrburke%2Falmond" aria-label="Sign in to make or propose changes" class="js-new-blob-form tooltipped rightwards new-file-link" method="post"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/jrburke/almond/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/jrburke/almond/commit/36b4b28163c31b699235534686e32d9585d9b826" class="message" data-pjax="true" title="Relates to #77, make sure example passes empty array for dependencies">Relates to</a> <a href="https://github.com/jrburke/almond/issues/77" class="issue-link" title="Does 'namespace' work with almond?">#77</a><a href="/jrburke/almond/commit/36b4b28163c31b699235534686e32d9585d9b826" class="message" data-pjax="true" title="Relates to #77, make sure example passes empty array for dependencies">, make sure example passes empty array for dependencies</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="36b4b28163c31b699235534686e32d9585d9b826" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/jrburke/almond/commit/36b4b28163c31b699235534686e32d9585d9b826" class="sha-block" data-pjax>latest commit <span class="sha">36b4b28163</span></a>
+
+      <div class="authorship">
+        <img alt="James Burke" class="gravatar js-avatar" data-user="73359" height="20" src="https://1.gravatar.com/avatar/00ac28bdce61e7db41be57fb3b7f3525?d=https%3A%2F%2Fidenticons.github.com%2F880ab8e3c71a97059c86d7664216bdf3.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/jrburke" data-skip-pjax="true" rel="author">jrburke</a></span>
+        authored <time class="js-relative-date updated" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-11T21:02:35-08:00" title="2014-01-11 21:02:35">January 11, 2014</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/jrburke/almond/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/tree/master/tests" class="js-directory-link" id="b61a6d542f9036550ba9c401c80f00ef-5b63238ad2c6bd48cd9852b4212eeb319a2e0bea" title="tests">tests</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">Fixes</a> <a href="https://github.com/jrburke/almond/issues/76" class="issue-link" title="More comprehensive fix to match jrburke/r.js#591">#76</a><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">, support nodeIdCompat</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-08T13:07:11-08:00" title="2014-01-08 13:07:11">January 08, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/04d6d567b9517d66ec8468cce7b03b66c6dbd5aa" class="message" data-pjax="true" title="Do not build almond in the test files, I keep forgetting to run the buil...
+
+...dTest.sh script to generate them.">Do not build almond in the test files, I keep forgetting to run the b…</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2012-10-02T23:07:11-07:00" title="2012-10-02 23:07:11">October 02, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/.npmignore" class="js-directory-link" id="0fd4ef892d9d4990033701887c2f9bcc-2fe7e239bb6aa0ed375a46271c8b598660c0cdb5" title=".npmignore">.npmignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/1cd56feef99b2ee3d508d02d5391fc837a669ce4" class="message" data-pjax="true" title="remove readmen from npmignore since npm now muddles concerns">remove readmen from npmignore since npm now muddles concerns</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2012-10-14T22:00:45-07:00" title="2012-10-14 22:00:45">October 14, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-f3c63e5060ade34c0e22681bd7e16ebfd3dabcfb" title=".travis.yml">.travis.yml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/88534806fd34dcb4f44258abcab0271704f5bfd2" class="message" data-pjax="true" title="remove r.js fetching since no longer needed.">remove r.js fetching since no longer needed.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2012-10-04T16:09:59-07:00" title="2012-10-04 16:09:59">October 04, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-a517c7a82700c6131178cbc73563fc1ca927ce65" title="LICENSE">LICENSE</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/159aec99c20d0787c51000eee8c006e7e25d1a13" class="message" data-pjax="true" title="initial commit with test.">initial commit with test.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2011-08-20T00:26:23-07:00" title="2011-08-20 00:26:23">August 20, 2011</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-932be02c207238c8a4307104d3c3a6345752744f" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/36b4b28163c31b699235534686e32d9585d9b826" class="message" data-pjax="true" title="Relates to #77, make sure example passes empty array for dependencies">Relates to</a> <a href="https://github.com/jrburke/almond/issues/77" class="issue-link" title="Does 'namespace' work with almond?">#77</a><a href="/jrburke/almond/commit/36b4b28163c31b699235534686e32d9585d9b826" class="message" data-pjax="true" title="Relates to #77, make sure example passes empty array for dependencies">, make sure example passes empty array for dependencies</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-11T21:02:35-08:00" title="2014-01-11 21:02:35">January 11, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/almond.js" class="js-directory-link" id="fbba0b614d48e9c570f2c1bbefab408f-c1cd946768d8028a81241ed63118f38e3bfe730d" title="almond.js">almond.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">Fixes</a> <a href="https://github.com/jrburke/almond/issues/76" class="issue-link" title="More comprehensive fix to match jrburke/r.js#591">#76</a><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">, support nodeIdCompat</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-08T13:07:11-08:00" title="2014-01-08 13:07:11">January 08, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-7a6befeb1df42e32eb7cc3cec813fa9c62f6ad75" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">Fixes</a> <a href="https://github.com/jrburke/almond/issues/76" class="issue-link" title="More comprehensive fix to match jrburke/r.js#591">#76</a><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">, support nodeIdCompat</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-08T13:07:11-08:00" title="2014-01-08 13:07:11">January 08, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-68b91e29491fbe0fd63ec455f7dab32320335177" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">Fixes</a> <a href="https://github.com/jrburke/almond/issues/76" class="issue-link" title="More comprehensive fix to match jrburke/r.js#591">#76</a><a href="/jrburke/almond/commit/7ca236b2e5a5c8261d3d7c493781f23a4a11f2e6" class="message" data-pjax="true" title="Fixes #76, support nodeIdCompat">, support nodeIdCompat</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-08T13:07:11-08:00" title="2014-01-08 13:07:11">January 08, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/blob/master/shrinktest.sh" class="js-directory-link" id="ec469f97725d20b827969b1e9467b240-9602359423c268aca597c764cbe650f8d12352a5" title="shrinktest.sh">shrinktest.sh</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jrburke/almond/commit/3fded1eb6b81812dfb1681f0d01634a2a917a18c" class="message" data-pjax="true" title="Fixes #74, switch to using global uglifyjs for shrinktest.sh">Fixes</a> <a href="https://github.com/jrburke/almond/issues/74" class="issue-link" title="Make the shrinktest runnable by others.">#74</a><a href="/jrburke/almond/commit/3fded1eb6b81812dfb1681f0d01634a2a917a18c" class="message" data-pjax="true" title="Fixes #74, switch to using global uglifyjs for shrinktest.sh">, switch to using global uglifyjs for shrinktest.sh</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-31T00:12:27-08:00" title="2013-12-31 00:12:27">December 31, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="almond" class="anchor" href="#almond"><span class="octicon octicon-link"></span></a>almond</h1>
+
+<p>A replacement <a href="https://github.com/amdjs/amdjs-api/wiki/AMD">AMD</a> loader for
+<a href="http://requirejs.org">RequireJS</a>. It is a smaller "shim" loader, providing the
+minimal AMD API footprint that includes <a href="http://requirejs.org/docs/plugins.html">loader plugin</a> support.</p>
+
+<h2>
+<a name="why" class="anchor" href="#why"><span class="octicon octicon-link"></span></a>Why</h2>
+
+<p>Some developers like to use the AMD API to code modular JavaScript, but after doing an optimized build,
+they do not want to include a full AMD loader like RequireJS, since they do not need all that functionality.
+Some use cases, like mobile, are very sensitive to file sizes.</p>
+
+<p>By including almond in the built file, there is no need for RequireJS.
+almond is around <strong>1 kilobyte</strong> when minified with Closure Compiler and gzipped.</p>
+
+<p>Since it can support certain types of loader plugin-optimized resources, it is a great
+fit for a library that wants to use <a href="http://requirejs.org/docs/api.html#text">text templates</a>
+or <a href="https://github.com/jrburke/require-cs">CoffeeScript</a> as part of
+their project, but get a tiny download in one file after using the
+<a href="http://requirejs.org/docs/optimization.html">RequireJS Optimizer</a>.</p>
+
+<p>If you are building a library, the wrap=true support in the RequireJS optimizer
+will wrap the optimized file in a closure, so the define/require AMD API does not
+escape the file. Users of your optimized file will only see the global API you decide
+to export, not the AMD API. See the usage section below for more details.</p>
+
+<p>So, you get great code cleanliness with AMD and the use of powerful loader plugins
+in a tiny wrapper that makes it easy for others to use your code even if they do not use AMD.</p>
+
+<h2>
+<a name="restrictions" class="anchor" href="#restrictions"><span class="octicon octicon-link"></span></a>Restrictions</h2>
+
+<p>It is best used for libraries or apps that use AMD and:</p>
+
+<ul>
+<li>optimize all the modules into one file -- no dynamic code loading.</li>
+<li>all modules have IDs and dependency arrays in their define() calls -- the RequireJS optimizer will take care of this for you.</li>
+<li>only have <strong>one</strong> requirejs.config() or require.config() call.</li>
+<li>do not use the <code>var require = {};</code> style of <a href="http://requirejs.org/docs/api.html#config">passing config</a>.</li>
+<li>do not use <a href="http://requirejs.org/docs/api.html#multiversion">RequireJS multiversion support/contexts</a>.</li>
+<li>do not use require.toUrl() or require.nameToUrl().</li>
+<li>do not use <a href="http://requirejs.org/docs/api.html#packages">packages/packagePaths config</a>. If you need to use packages that have a main property, <a href="https://github.com/volojs/volo">volo</a> can create an adapter module so that it can work without this config. Use the <code>amdify add</code> command to add the dependency to your project.</li>
+</ul><p>What is supported:</p>
+
+<ul>
+<li>dependencies with relative IDs.</li>
+<li>define('id', {}) definitions.</li>
+<li>define(), require() and requirejs() calls.</li>
+<li>loader plugins that can inline their resources into optimized files, and
+can access those inlined resources synchronously after the optimization pass.
+The <a href="http://requirejs.org/docs/api.html#text">text</a> and
+<a href="https://github.com/jrburke/require-cs">CoffeeScript</a> plugins are two such plugins.</li>
+</ul><h2>
+<a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h2>
+
+<p><a href="https://github.com/jrburke/almond/raw/latest/almond.js">Latest release</a></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p><a href="http://requirejs.org/docs/download.html#rjs">Download the RequireJS optimizer</a>.</p>
+
+<p><a href="https://github.com/jrburke/almond/raw/latest/almond.js">Download the current release of almond.js</a>.</p>
+
+<p>Run the optimizer using <a href="http://nodejs.org">Node</a> (also <a href="https://github.com/jrburke/r.js/blob/master/README.md">works in Java</a>):</p>
+
+<pre><code>node r.js -o baseUrl=. name=path/to/almond include=main out=main-built.js wrap=true
+</code></pre>
+
+<p>This assumes your project's top-level script file is called main.js and the command
+above is run from the directory containing main.js. If you prefer to use a build.js build profile instead of command line arguments, <a href="http://requirejs.org/docs/optimization.html#pitfalls">this RequireJS optimization section</a> has info on how to do that.</p>
+
+<p>wrap=true will add this wrapper around the main-built.js contents (which will be minified by UglifyJS:</p>
+
+<pre><code>(function () {
+    //almond will be here
+    //main and its nested dependencies will be here
+}());
+</code></pre>
+
+<p>If you do not want that wrapper, leave off the wrap=true argument.</p>
+
+<p>These optimizer arguments can also be used in a build config object, so it can be used
+in <a href="https://github.com/jrburke/r.js/blob/master/build/tests/http/httpBuild.js">runtime-generated server builds</a>.</p>
+
+<h2>
+<a name="triggering-module-execution-" class="anchor" href="#triggering-module-execution-"><span class="octicon octicon-link"></span></a>Triggering module execution <a name="execution"></a>
+</h2>
+
+<p>As of RequireJS 2.0 and almond 0.1, modules are only executed if they are
+called by a top level require call. The data-main attribute on a script tag
+for require.js counts as a top level require call.</p>
+
+<p>However with almond, it does not look for a data-main attribute, and if your
+main JS module does not use a top level require() or requirejs() call to
+trigger module loading/execution, after a build, it may appear that the code
+broke -- no modules execute.</p>
+
+<p>The 2.0 RequireJS optimizer has a build config, option <strong>insertRequire</strong> that you
+can use to specify that a require([]) call is inserted at the end of the built
+file to trigger module loading. Example:</p>
+
+<pre><code>node r.js -o baseUrl=. name=path/to/almond.js include=main insertRequire=main out=main-built.js wrap=true
+</code></pre>
+
+<p>or, if using a build config file:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="nx">baseUrl</span><span class="o">:</span> <span class="s1">'.'</span><span class="p">,</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s1">'path/to/almond'</span><span class="p">,</span>
+    <span class="nx">include</span><span class="o">:</span> <span class="p">[</span><span class="s1">'main'</span><span class="p">],</span>
+    <span class="nx">insertRequire</span><span class="o">:</span> <span class="p">[</span><span class="s1">'main'</span><span class="p">],</span>
+    <span class="nx">out</span><span class="o">:</span> <span class="s1">'main-built.js'</span><span class="p">,</span>
+    <span class="nx">wrap</span><span class="o">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>This will result with <code>require(["main"]);</code> at the bottom of main-built.js.</p>
+
+<h2>
+<a name="exporting-a-public-api" class="anchor" href="#exporting-a-public-api"><span class="octicon octicon-link"></span></a>Exporting a public API</h2>
+
+<p>If you are making a library that is made up of AMD modules in source form, but will be built with almond into one file, and you want to export a small public
+API for that library, you can use the <code>wrap</code> build config to do so. Build
+config:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{</span>
+    <span class="nx">baseUrl</span><span class="o">:</span> <span class="s1">'.'</span><span class="p">,</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s1">'path/to/almond'</span><span class="p">,</span>
+    <span class="nx">include</span><span class="o">:</span> <span class="p">[</span><span class="s1">'main'</span><span class="p">],</span>
+    <span class="nx">out</span><span class="o">:</span> <span class="s1">'lib-built.js'</span><span class="p">,</span>
+    <span class="nx">wrap</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">startFile</span><span class="o">:</span> <span class="s1">'path/to/start.frag'</span><span class="p">,</span>
+        <span class="nx">endFile</span><span class="o">:</span> <span class="s1">'path/to/end.frag'</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Where start.frag could look like this:</p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">'function'</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//Allow using this built library as an AMD module</span>
+        <span class="c1">//in another project. That other project will only</span>
+        <span class="c1">//see this AMD call, not the internal modules in</span>
+        <span class="c1">//the closure below.</span>
+        <span class="nx">define</span><span class="p">([],</span> <span class="nx">factory</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">//Browser globals case. Just assign the</span>
+        <span class="c1">//result to a property on the global.</span>
+        <span class="nx">root</span><span class="p">.</span><span class="nx">libGlobalName</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}(</span><span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">//almond, and your modules will be inlined here</span>
+</pre></div>
+
+<p>and end.frag is like this:</p>
+
+<div class="highlight highlight-javascript"><pre>    <span class="c1">//The modules for your project will be inlined above</span>
+    <span class="c1">//this snippet. Ask almond to synchronously require the</span>
+    <span class="c1">//module value for 'main' here and return it as the</span>
+    <span class="c1">//value to use for the public API for the built file.</span>
+    <span class="k">return</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'main'</span><span class="p">);</span>
+<span class="p">}));</span>
+</pre></div>
+
+<p>After the build, then the built file should be structured like so:</p>
+
+<ul>
+<li>start.frag</li>
+<li>almond.js</li>
+<li>modules for your lib, including 'main'</li>
+<li>end.frag</li>
+</ul><h2>
+<a name="common-errors" class="anchor" href="#common-errors"><span class="octicon octicon-link"></span></a>Common errors</h2>
+
+<p>Explanations of common errors:</p>
+
+<h3>
+<a name="deps-is-undefined" class="anchor" href="#deps-is-undefined"><span class="octicon octicon-link"></span></a>deps is undefined</h3>
+
+<p>Where this line is mentioned:</p>
+
+<pre><code>if (!deps.splice) {
+</code></pre>
+
+<p>It usually means that there is a define()'d module, but it is missing a name,
+something that looks like this:</p>
+
+<pre><code>define(function () {});
+//or
+define([], function () {});
+</code></pre>
+
+<p>when it should look like:</p>
+
+<pre><code>define('someName', function () {});
+//or
+define('someName', [], function () {});
+</code></pre>
+
+<p>This is usually a sign that the tool you used to combine all the modules
+together did not properly name an anonymous AMD module.</p>
+
+<h3>
+<a name="x-missing-y" class="anchor" href="#x-missing-y"><span class="octicon octicon-link"></span></a>x missing y</h3>
+
+<p>It means that module 'x' asked for module 'y', but module 'y' was not available.</p>
+
+<p>This usually means that 'y' was not included in the built file that includes almond.</p>
+
+<p>almond can only handle modules built in with it, it cannot dynamically load
+modules from the network.</p>
+
+<h3>
+<a name="no-y" class="anchor" href="#no-y"><span class="octicon octicon-link"></span></a>No y</h3>
+
+<p>It means that a <code>require('y')</code> call was done but y was not available.</p>
+
+<p>This usually means that 'y' was not included in the built file that includes almond.</p>
+
+<p>almond can only handle modules built in with it, it cannot dynamically load
+modules from the network.</p>
+
+<h2>
+<a name="how-to-get-help" class="anchor" href="#how-to-get-help"><span class="octicon octicon-link"></span></a>How to get help</h2>
+
+<ul>
+<li>Contact the <a href="https://groups.google.com/group/requirejs">requirejs list</a>.</li>
+<li>Open issues in the <a href="https://github.com/jrburke/almond/issues">issue tracker</a>.</li>
+</ul><h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Almond follows the
+<a href="http://requirejs.org/docs/contributing.html">same contribution model as requirejs</a>
+and is considered a sub-project of requirejs.</p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.04944s from github-fe134-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/jrburke/almond/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

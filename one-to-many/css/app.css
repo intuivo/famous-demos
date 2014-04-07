@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+html                { 
+                      font-size: 18px; 
+                      background-color: #303637; 
+                    } 
+#main { 
+    -webkit-perspective: 500px;
+    perspective: 500px;
+}
+
+
+// Background Colors
+.grey-trans-bg      { background-color: rgba(0,0,0, 0.2); } 
+.l-grey             { background-color: #aeb6b7; } 
+.grey-bg            { background-color: #1d1d1d; }
+.l-grey-bg          { background-color: #272627;}
+.white-bg           { background-color: #ffffff; } 
+.black-bg           { background-color: #000000; }
+.blue-bg            { background-color: #33ccff; }
+.yellow-bg          { background-color: #FFC12B; }
+.orange-bg          { background-color: #ff982b; }
+
+// Borders
+.no-border          { border: 0; }
+.no-border:focus    { outline: 0; } // for input boxes.
+
+.bor-white          { border: 1px solid #FFFFFF; }
+.bor-yellow         { border: 1px solid #FFC12B; }
+.bor-blue           { border: 1px solid #33ccff; }
+
+
+.bor-dtw            { border-top: 1px dotted rgba(255,255,255,0.23); } 
+.bor-dbw            { border-bottom: 1px dotted rgba(255,255,255,0.2); } 
+.bor-drw            { border-right: 1px dashed rgba(255, 255, 255, 0.3); }
+.bor-dr             { border-right: 1px dotted rgba(255, 255, 255, 0.3); }
+.bor-rb             { border-right: 1px solid rgba(0,0,0,1);border-left: 1px solid rgba(0,0,0,1); }
+.bor-t              { border-top: 1px solid #323132; }
+.bor-tp             { border-top: 1px solid #6f3291; }
+.bor-tbg            { border-top: 1px solid #8a8a8a }
+
+.bor-b              { border-bottom: 1px solid #1b1b1b; }
+.bor-bg             { border-bottom: 1px solid #e0e0e0; }
+.bor-bw             { border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+.bor-bwl            { border-bottom: 2px solid #ffffff; } 
+.bor-a              { border: 1px solid #323132; } 
+.bor-ad             { border: 1px solid rgba(0,0,0,0.05); } 
+
+
+// Shadows
+.shadGreyBl       { 
+  //-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.diagonal-stripes {
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.15) 35px, rgba(255,255,255,.15) 70px);
+}
+
+.stairs { 
+    background: linear-gradient(63deg, #999 23%, transparent 23%) 7px 0, linear-gradient(63deg, transparent 74%, #999 78%), linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%), #444;
+}
+
+
+.panel-background, .description-panel {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.label
+{
+	font-family: 'Avenir Next W10 Medium', sans-serif;	
+	color: rgba(255,255,255,1.0);
+    border-bottom: 1px solid white;
+	//background-color: rgba(0,0,0,.125);
+}
+
+.slider-label {					
+	font-family: 'Avenir Next W10 Thin', sans-serif;	
+    font-weight: 200;
+	color: rgba(255,255,255,1.0);
+	//background-color: rgba(0,0,0,.125);
+}
+
+.slider-back {
+	background-color: rgba(0,0,0,.5);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.slider-fill {
+	background-color: rgba(255,255,255,0.8);
+}
+.slider-value {
+	font-family: 'Avenir Next W10 Medium', sans-serif;	
+    color: rgba(172,234,255,1);
+}
+.settings-save { 
+	font-family: 'Avenir Next W10 Bold', sans-serif;	
+    color: rgba(172,234,255,1);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #2a2933;
+    border-top: 2px solid #7bd0db;
+    border-left: 2px solid #7bd0db;
+    border-right: 2px solid #7bd0db;
+    
+}
+
+.settings-save-button { 
+	font-family: 'Avenir Next W10 Bold', sans-serif;	
+    background-color: #6cce3e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.settings-clear { 
+	font-family: 'Avenir Next W10 Bold', sans-serif;	
+    color: rgba(255, 255, 255, 1);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #eb704f;
+}
+
+.no-user-select { 
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1, h2, h3 { 
+    font-family: 'Avenir Next W10 Bold';
+    font-size: 18px;
+    color: white;
+}
+h4, h5, h6 { 
+    font-family: 'Avenir Next W01 Thin';
+}
+p { 
+    font-size: 14px;
+    font-family: 'Avenir Next W10 Medium';
+    color: white;
+}
+
+.backface-visible { 
+    backface-visibility:visible;
+    -webkit-backface-visibility:visible; 
+    -moz-backface-visibility:visible; 
+    -ms-backface-visibility:visible;
+}
+
+//CORE UI
+
+.core-nextDescription a {
+    color: #ffffff;
+    line-height: 18px;
+}
+.core-next-demo { 
+    font-size: 12px;
+    color: #ccc;
+    font-family: 'Avenir Next W10 Medium';   
+}
+.core-next-name { 
+    color: #ffffff;
+    font-family: 'Avenir Next W10 Medium';   
+}
+.core-error { 
+    font-family: 'Avenir Next W10 Medium';   
+}
+
+.textinput
+{        
+    height:40px; 
+    width:100%; 
+    padding-left: 6px;     
+    padding-top: 0px;     
+    color: rgba(255, 255, 255, .750);
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';
+    background-color:rgba(0, 0, 0, 0.0); 
+    border: 1px solid rgba(255, 255, 255, .750);   
+    outline-width: 0px;
+}
+
+.textinput:focus
+{
+    color: rgba(255, 255, 255, 1.0);
+    border: 1px solid rgba(255, 255, 255, 1.0);   
+    outline-width: 0px;    
+}
+
+.submit
+{
+    padding-top: 9px;
+    padding-left: 4px;
+    line-height: 24px;
+    font-size: 24px; 
+    font-family: 'Avenir Next W10 Thin';   
+}
+
+.ui-color-picker { 
+    /*
+        box-shadow: 
+        0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, 0.10),
+        0 0 5px rgba(0, 0, 0, 0.10),
+        0 1px 3px rgba(0, 0, 0, 0.30),
+        0 3px 5px rgba(0, 0, 0, 0.20),
+        0 5px 10px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.20),
+        0 20px 20px rgba(0, 0, 0, 0.15)
+    */
+    box-shadow: 
+        0  1px  0px   0 #ccc,
+        0  2px  0px   0 #c9c9c9,
+        0  3px  0px   0 #bbb,
+        0  4px  0px   0 #b9b9b9,
+        0  5px  0px   0  #aaa,
+        0  6px  1px   0 rgba(0, 0, 0, 0.10),
+        0  0px  5px   0 rgba(0, 0, 0, 0.10),
+        0  1px  3px   0 rgba(0, 0, 0, 0.30),
+        0  3px  5px   0 rgba(0, 0, 0, 0.20),
+        0  5px  10px  0 rgba(0, 0, 0, 0.25),
+        0  10px 10px  0 rgba(0, 0, 0, 0.20),
+        0  20px 20px  0 rgba(0, 0, 0, 0.15)
+}

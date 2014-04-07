@@ -1,0 +1,36 @@
+/*
+
+@font-face{
+font-family:"AvenirNextLTW01-HeavySC";
+src:url("../content/Fonts/2ef1c301-57bd-4c59-b52d-42a91c2fc261.eot?#iefix");
+src:url("../content/Fonts/2ef1c301-57bd-4c59-b52d-42a91c2fc261.eot?#iefix") format("eot"),url("Fonts/ab4b9296-8972-4fa7-9797-f1821d06b825.woff") format("woff"),url("Fonts/d0e3fe4e-bfc0-4985-9939-b0c3a5bdaa6c.ttf") format("truetype"),url("Fonts/bf2b9975-848d-4e9c-bc3d-4618882c3914.svg#bf2b9975-848d-4e9c-bc3d-4618882c3914") format("svg"); }
+
+@font-face{
+font-family:"AvenirNextLTW01-UltLtCn 727659";
+src:url("../content/Fonts/ef4ad844-cf15-4939-83d8-b06ec7455aed.eot?#iefix");
+src:url("../content/Fonts/ef4ad844-cf15-4939-83d8-b06ec7455aed.eot?#iefix") format("eot"),url("Fonts/621e8444-6354-486f-bd4f-81a143692327.woff") format("woff"),url("Fonts/43dfa241-a001-4440-80d4-fcc086126096.ttf") format("truetype"),url("Fonts/1aca2052-8139-441c-b376-799a244d473d.svg#1aca2052-8139-441c-b376-799a244d473d") format("svg"); }
+
+*/
+@font-face{
+font-family:"Avenir Next W10 Medium";
+src:url("../content/Fonts/2bf26c0b-2c2a-4d68-8f6b-447ecd526105.eot?#iefix");
+src:url("../content/Fonts/2bf26c0b-2c2a-4d68-8f6b-447ecd526105.eot?#iefix") format("eot"),url("Fonts/95aa7ca1-de33-40d9-ae40-ff045fcada66.woff") format("woff"),url("Fonts/915534d0-f381-4fa3-9ff3-c56e5c6cfd08.ttf") format("truetype"),url("Fonts/a252017e-236d-4161-895a-5f6b851154e4.svg#a252017e-236d-4161-895a-5f6b851154e4") format("svg"); }
+@font-face{
+font-family:"Avenir Next W10 Bold";
+src:url("../content/Fonts/d80df405-6718-4dbc-9f54-d88c0807ca8b.eot?#iefix");
+src:url("../content/Fonts/d80df405-6718-4dbc-9f54-d88c0807ca8b.eot?#iefix") format("eot"),url("Fonts/ba4bd129-7517-4eef-9fe8-473263d17616.woff") format("woff"),url("Fonts/229324ce-a846-4038-9167-0e65a0c32226.ttf") format("truetype"),url("Fonts/9705a786-ed36-423c-bfb3-43e7e96a3895.svg#9705a786-ed36-423c-bfb3-43e7e96a3895") format("svg"); }
+@font-face{
+font-family:"Avenir Next W10 Heavy";
+src:url("../content/Fonts/d3f31394-e7cf-4553-b582-fcec4d7e84db.eot?#iefix");
+src:url("../content/Fonts/d3f31394-e7cf-4553-b582-fcec4d7e84db.eot?#iefix") format("eot"),url("Fonts/ac97f5d6-a420-481a-955e-77653618b656.woff") format("woff"),url("Fonts/5fc4aac2-c1c5-4bac-b182-b03ea3965419.ttf") format("truetype"),url("Fonts/6dd157a3-38fb-4b2e-9988-bbe7b2da47f8.svg#6dd157a3-38fb-4b2e-9988-bbe7b2da47f8") format("svg");
+}
+@font-face{
+font-family:"Avenir Next W01 Thin";
+src:url("../content/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix");
+src:url("../content/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix") format("eot"),url("Fonts/c6c8e4be-17eb-4475-bbfc-bb485ffde766.woff") format("woff"),url("Fonts/87a872d0-5af3-4231-a77c-37f41ec74662.ttf") format("truetype"),url("Fonts/91464696-717b-4eaa-adbd-0dfc5e5fd782.svg#91464696-717b-4eaa-adbd-0dfc5e5fd782") format("svg");
+}
+@font-face{
+font-family:"Avenir Next W10 Thin";
+src:url("../content/Fonts/b974d116-d3bf-4dd2-867d-690069cd9b8a.eot?#iefix");
+src:url("../content/Fonts/b974d116-d3bf-4dd2-867d-690069cd9b8a.eot?#iefix") format("eot"),url("Fonts/05ba45a2-c542-4737-b332-e1059c7b54d3.woff") format("woff"),url("Fonts/51c1912f-2905-477e-86ff-d0eb55720b1f.ttf") format("truetype"),url("Fonts/98b97f32-8588-4a72-b4fe-6a84f02b297c.svg#98b97f32-8588-4a72-b4fe-6a84f02b297c") format("svg");
+}

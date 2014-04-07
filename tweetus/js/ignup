@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign up for famo.us</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/core.css">
+
+        <script src="js/z.js"></script>
+        <script src="js/core.js"></script>
+
+    </head>
+    <body>
+
+        <div id="signupContainer">
+            <a href="http://famo.us"><img src="content/famousLogo.png" id="famousLogo"></a>
+            <input type="text" name="fname" id="signupInput" placeholder="Enter your e-mail address">
+            <p id="signupButton">Sign up for famo.us</p>
+            <p id="messageBox"></p>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
